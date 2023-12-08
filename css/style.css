@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #011b2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Styles for the main form container */
+.form {
+    max-width: 320px;
+    width: 100%;
+    background-color: rgb(17, 24, 39, 1);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(52, 52, 53, 0.2);
+    border-radius: 8px;
+}
+
+/* Styles for the form title */
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Styles for form labels */
+.label {
+    color: #fff9f9;
+    margin-bottom: 4px;
+}
+
+/* Styles for form inputs */
+.input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 1rem;
+    color: #b5b5b5;
+    outline: none;
+    border: 1px solid #a8c8eb;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Styles for focused input */
+.input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 2px #cbd5e0;
+}
+
+/* Styles for form submit button */
+.submit {
+    background-color: #769ae9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Styles for links */
+.link {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+/* Styles for link anchor */
+.link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles for link anchor on hover */
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for success message */
+.success-message {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+}
